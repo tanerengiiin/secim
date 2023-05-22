@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React from 'react'
 import "./style.css"
 const Aday = ({ oy, setOy, data }) => {
     const handleOy = (type) => {

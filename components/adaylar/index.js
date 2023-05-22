@@ -59,8 +59,8 @@ const Adaylar = () => {
                 </div>
             </div>
             <hr />
-            <Oran total={(kk + rte + bos)} oy={rte} data={adaylar[0]} />
-            <Oran total={(kk + rte + bos)} oy={kk} data={adaylar[1]} />
+            <Oran total={(kk + rte)} oy={rte} data={adaylar[0]} />
+            <Oran total={(kk + rte)} oy={kk} data={adaylar[1]} />
         </div>
     )
 }
