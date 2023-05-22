@@ -2,16 +2,18 @@
 import React, { useEffect, useState } from 'react'
 import Aday from '../aday'
 import Oran from '../oran'
+import Erdogan from "../../assets/erdogan.png"
+import Kilicdaroglu from "../../assets/kilicdaroglu.png"
 const adaylar = [
     {
         id: 1,
         title: "Erdoğan",
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/220px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"
+        url: Erdogan
     },
     {
         id: 2,
         title: "Kılıçdaroğlu",
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kemal_Kılıçdaroğlu_in_May_2023_%28cropped%29.jpg/220px-Kemal_Kılıçdaroğlu_in_May_2023_%28cropped%29.jpg"
+        url: Kilicdaroglu
     },
     {
         id: 3,
