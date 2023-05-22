@@ -67,7 +67,7 @@ const Adaylar = () => {
             <Oran total={(kk + rte)} oy={kk} data={adaylar[1]} />
             <hr />
             <div className='mx-3 my-4 text-center opacity-60 text-xs'>
-                Bu uygulama seçmen olarak oy sayımını takip etmek için yapılmıştır. Herhangi bir siyasi amacı yoktur. 
+                Bu uygulama seçmen olarak oy sayımını takip etmek için yapılmıştır. Herhangi bir siyasi amacı yoktur. Veriler kullanılmaz ya da saklanmaz. <b>Lütfen</b> tutanak imzalanana kadar bekleyiniz ve sonuçları doğrulayınız.
             </div>
             
         </div>
