@@ -42,7 +42,11 @@ const Adaylar = () => {
         localStorage.setItem("sandık", txt)
     }
     return (
-        <div className='text-black'>
+        <div className='text-black w-full'>
+            <div className='mx-3 my-4 text-center font-extrabold text-lg'>
+                SANDIĞINI TAKİP ET!
+            </div>
+            <hr />
             <div className='mx-3 my-4 flex items-center space-x-3'>
                 <div>Sandık: </div>
                 <input value={sandık} onChange={(e) => handleSandık(e.target.value)} className='w-full bg-black bg-opacity-5 px-2 py-1 rounded-lg' />
@@ -55,12 +59,17 @@ const Adaylar = () => {
             <div className='mx-3 my-4 flex items-center justify-between'>
                 <div></div>
                 <div>
-                    <div>Toplam Oy: <span className='w-6'>{(kk + rte + bos)}</span></div>
+                    <div>Toplam Oy: <span className='w-6 font-semibold'>{(kk + rte + bos)}</span></div>
                 </div>
             </div>
             <hr />
             <Oran total={(kk + rte)} oy={rte} data={adaylar[0]} />
             <Oran total={(kk + rte)} oy={kk} data={adaylar[1]} />
+            <hr />
+            <div className='mx-3 my-4 text-center opacity-60 text-xs'>
+                Bu uygulama seçmen olarak oy sayımını takip etmek için yapılmıştır. Herhangi bir siyasi amacı yoktur. 
+            </div>
+            
         </div>
     )
 }
